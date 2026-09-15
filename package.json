@@ -1,0 +1,19 @@
+{
+  "name": "pawnvspawn-server",
+  "version": "1.0.0",
+  "description": "Real-time WebSocket matchmaking + move relay server for Pawn vs Pawn. No database, no accounts, no persistence — everything lives in memory only for as long as a game room exists.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "chess.js": "0.13.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
